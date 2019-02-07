@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "42321463457",
+    "firebase_url": "https://register-f940c.firebaseio.com",
+    "project_id": "register-f940c",
+    "storage_bucket": "register-f940c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:42321463457:android:6bc73e5ef5e0e88f",
+        "android_client_info": {
+          "package_name": "lucasnetwork.brainmagic.com.register"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "42321463457-76u59mjicoetai2f1kpjulac7pnkv3lo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "lucasnetwork.brainmagic.com.register",
+            "certificate_hash": "d340ceeb19777559446e6b3fe29622548fa12b53"
+          }
+        },
+        {
+          "client_id": "42321463457-cngcuu2dro9moln82tb0m5vhr0b151o3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsr38VXRozSeECF6vXMGkOK-gZO0jDjOE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "42321463457-13mdmjo8jgtejnao5j2gendu647l6jc6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

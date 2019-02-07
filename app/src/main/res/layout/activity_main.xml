@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/autotextback"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <android.support.v7.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        app:navigationContentDescription="@string/abc_action_bar_up_description"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:title="Register"
+        android:gravity="center"/>
+    <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+        android:background="@color/white"
+        android:layout_margin="18dp"
+
+        android:outlineAmbientShadowColor="@color/red"
+       android:layout_gravity="center"
+       android:gravity="center"
+       android:paddingHorizontal="5dp">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="User Login"
+            android:textColor="@color/red"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+        <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the E-mail"
+        android:layout_margin="15dp"
+        android:inputType="textEmailAddress"
+        android:id="@+id/edittextemail"/>
+
+    <EditText
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="Enter the password"
+           android:layout_margin="15dp"
+            android:textColor="@color/darkgray"
+           android:inputType="textPassword"
+           android:id="@+id/edittextpassowrd"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ForgotPassowrd?"
+            android:textColor="@color/red"
+            android:textSize="15dp"
+            android:id="@+id/forgot"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+
+       <Button
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/buttonsubmit"
+           android:text="Login"
+           android:textColor="@color/red"
+           android:layout_gravity="center"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonupload"
+            android:text="Upload Images"
+            android:textColor="@color/red"
+            android:layout_gravity="center"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/userlogin"
+            android:text="Exist Customer"
+            android:visibility="gone"
+            android:textColor="@color/red"
+            android:layout_gravity="center"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_marginTop="5dp"
+    android:layout_height="wrap_content">
+       <TextView
+           android:layout_width="match_parent"
+           android:text="Already Registered!!!"
+           android:textSize="18dp"
+           android:id="@+id/textSign"
+           android:textAlignment="center"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+           />
+        <TextView
+           android:layout_width="match_parent"
+            android:layout_weight="1"
+           android:text="New User!!!"
+           android:textSize="18dp"
+           android:id="@+id/textnew"
+           android:textAlignment="center"
+           android:layout_height="wrap_content"
+           />
+</LinearLayout>
+<!--
+<include
+    android:id="@+id/bottmsheet"
+    android:visibility="gone"
+
+    layout="@layout/bottmsheet"/>
+-->
+   </LinearLayout>
+</ScrollView>
+
+</LinearLayout>

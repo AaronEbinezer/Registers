@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ImagesActivity">
+    <android.support.v7.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        app:navigationContentDescription="@string/abc_action_bar_up_description"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:title="Uploaded Images"
+        android:gravity="center"/>
+<!--
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:clipToPadding="false"
+        android:focusable="true"
+
+        android:id="@+id/frame"
+        android:layout_below="@+id/toolbar"
+        android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_action_cart"/>
+
+        <TextView
+            android:id="@+id/cart_badge"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="right|end|top"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="-5dp"
+            android:layout_marginRight="-5dp"
+            android:background="@drawable/badge_background"
+            android:gravity="center"
+
+            android:hint="10"
+            android:padding="3dp"
+            android:textColor="@android:color/white"
+            android:textSize="10sp" />
+    </FrameLayout>
+-->
+
+
+    <android.support.v4.widget.ContentLoadingProgressBar
+        android:layout_width="wrap_content"
+        android:id="@+id/progress"
+        android:layout_height="wrap_content" />
+    <android.support.v7.widget.RecyclerView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"
+
+        android:id="@+id/recyclerview">
+
+</android.support.v7.widget.RecyclerView>
+
+
+</RelativeLayout>
